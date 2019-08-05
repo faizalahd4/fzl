@@ -1,0 +1,86 @@
+/**
+ * Copyright (c) 2019
+ * Default scss variable setting 
+ * 
+ * @summary Default scss variable setting
+ * @author  Fazil
+ * 
+ */
+
+$cherry-red:             #d01d22;
+$maroon:                 #800000;
+$green:                  #7db680;
+$green-darker:			 #22ac66;
+$brown:                  #ad9580;
+$brown-light:            #c9bbab;
+$creme:                  #f7f5df;
+$creme-light:            #fcfae5;
+$blue:                   #3b79c7;
+$purple:                 #774db2;
+$turquoise:              #49ccb5;
+$yellow:                 #fbc90b;
+$disable:				 #cdcdcd;
+
+
+
+$black:                  #000;
+$gray-darker:            #333;
+$gray-dark:              #555;
+$gray-darklight:         #666;
+$gray-medium:            #586069;
+$gray:                   #777;
+$gray-light:             #bbb;
+$gray-lighter:           #d6d6d6;
+$white:                  #f3f3f3;
+$pure-white:             #fff;
+$table-boder:			 #b8b8b8;
+$paybills-border-bt:	 #d9d9d9;
+$right-btn-bgd:			 #eee;
+$paybill-reminder:		 #e5e5e5;
+$border-header:			 #700000;
+$bgd-expended:			 #2f2f2f;
+$bgd-modal: 			 #f2f2f2;
+
+
+$brand-primary:         $cherry-red;
+$brand-success:         $green;
+$brand-info:            $blue;
+$brand-warning:         $yellow;
+$brand-danger:          $cherry-red;
+$border-panel:			#d6d6d6;
+$bgd-panel:				#f9f9f9;
+$color-tab:				#919191;
+$border-sidebar-footer: #4c4c4c;
+
+
+//## Settings for some of the most global styles.
+//Background color for `<body>`.
+$body-bg:               #fff;
+//Global error text color on `<body>`.
+$error-text-color:      #700000;
+//Global text color on `<body>`.
+$text-color:            $gray-dark !default;
+//Global textual link color.
+$link-color:            $black;
+//Link hover color set via `darken()` function.
+$link-hover-color:      darken($link-color, 15%) !default;
+//Link hover decoration.
+$link-hover-decoration: underline;
+
+
+//Typography
+//Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif:  Open Sans, Verdana, Helvetica, sans-serif;
+$font-family-serif:       'Maven Pro', sans-serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-base:        $font-family-serif;
+$font-size-base:          16px;
+$font-size-large:         18px;
+$font-size-small:         12px;
+$font-size-h1:            26px;
+$font-size-h2:            24px;
+$font-size-h3:            22px;
+$font-size-h4:            20px; // the size from this and below are not defined, they are deduced
+$font-size-h5:            18px; // eww, so small, hopefully we'll never use
+$font-size-h6:            16px; // eww, so small, hopefully we'll never use

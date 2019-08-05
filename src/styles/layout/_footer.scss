@@ -1,0 +1,23 @@
+/**
+ * Copyright (c) 2019
+ * Footer styling
+ * 
+ * @summary Footer
+ * @author  Fazil
+ * 
+ */
+
+
+ footer {
+    font-size: $font-size-small;
+    color: $gray-medium;
+    text-align: center;
+    padding: 10px;
+    a {
+        color: $gray-medium;
+        &:hover {
+            color: $gray-medium;
+            text-decoration: none; 
+        }
+    }
+}

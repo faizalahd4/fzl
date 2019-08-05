@@ -1,0 +1,28 @@
+/**
+ * Copyright (c) 2019
+ * Subheader Component
+ * 
+ * @summary Subheader Component
+ * @author  Fazil
+ * 
+ */
+
+.wr-subheader {
+    padding: 0;
+    background: $body-bg;
+    &__title {
+        font-size: 35px;
+        text-transform: uppercase;
+        padding: 30px 0 0 0;
+        letter-spacing: 0.4em;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: $font-size-small;
+        text-transform: uppercase;
+        padding: 0 0 90px 0;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color: $gray-dark;
+    }
+}

@@ -1,0 +1,23 @@
+/**
+ * Copyright (c) 2019
+ * Styling for App
+ * 
+ * @summary App
+ * @author  Fazil
+ * 
+ */
+ 
+.wr-content-conatiner {
+    margin-bottom: 3%;
+}
+.dn {
+    display: none;
+}
+.section {
+    padding: 40px 0 120px 0;
+    background: $body-bg;
+    &__bg {
+        background: $bgd-panel;    
+        box-shadow: 0 0 1px $border-panel;
+    }
+}

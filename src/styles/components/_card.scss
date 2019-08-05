@@ -1,0 +1,67 @@
+/**
+ * Copyright (c) 2019
+ * Card Component
+ * 
+ * @summary Card Component
+ * @author  Fazil
+ * 
+ */
+
+ .rw-card {
+   box-sizing: border-box;
+   margin: 0 15px 30px 15px;
+   width: 100%;
+   background: #fff;
+   transition: all 0.5s ease;
+   position: relative;
+   height: 200px;
+   box-shadow: 1px 1px 2px #595959;
+   overflow: hidden;
+   border-radius: 5px;
+   &__layer {
+      width: inherit;
+      height: inherit;
+      transform: scale(1);
+      transition: all 0.5s ease;
+      text-align: center;
+      padding-top: 25%;
+      position: relative;
+      &:hover {
+         transform: scale(1.2);
+      }
+      &::after {
+         content: "";
+         top: 0;
+         left: 0;
+         bottom: 0;
+         right: 0;
+         position: absolute;
+         background: #000;
+         opacity: 0.3; 
+         z-index: -1;
+       }
+   }
+   &:hover {
+      cursor: pointer;
+      box-shadow: 1px 1px 4px #595959;
+   }
+   &__title {
+      font-size: $font-size-h4;
+      letter-spacing: 0.06em;
+      a {
+         transition: all 0.5s ease;
+         text-transform: uppercase;
+         color: #fff;
+         font-weight: bold;
+         &:hover {
+            text-decoration: none;
+         }
+      }
+   }
+   &__content {
+      font-size: $font-size-small;
+      letter-spacing: 0.06em;
+      color: #fff; 
+      padding: 0 30px;
+   }
+ }

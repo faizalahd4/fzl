@@ -1,0 +1,54 @@
+/**
+ * Copyright (c) 2019
+ * Min Header Component
+ * 
+ * @summary Min Header Component
+ * @author  Fazil
+ * 
+ */
+
+ .wr-mheader {
+   padding: 0;
+   margin: 0;
+   height: 400px;
+   width: 100%;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   box-shadow: 0 1px 5px #515151;
+   position: relative;
+   text-align: center;
+   text-transform: uppercase;
+   color: #fff;
+   &::after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background: #000;
+    opacity: 0.3; 
+    z-index: 1;
+  }
+  &__content{
+    top: 36%;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    right: 0;
+    .title {
+      font-size: 50px;
+      margin: 0;
+      font-weight: bold;
+      text-shadow: 1px 1px #2f2f2f;
+    }
+    .subtitle {
+      font-size: 16px;
+      letter-spacing: 4px;
+      font-weight: normal;
+      text-shadow: 1px 1px #2f2f2f;
+    }
+  }
+}
